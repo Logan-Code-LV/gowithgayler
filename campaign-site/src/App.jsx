@@ -17,7 +17,8 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/content/site.json')
+    const basePath = import.meta.env.BASE_URL;
+    fetch(`${basePath}content/site.json`)
       .then((response) => response.json())
       .then((data) => {
         setSiteData(data);

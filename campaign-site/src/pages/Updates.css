@@ -1,0 +1,31 @@
+.updates-page {
+  padding: 3rem 2rem;
+}
+
+.updates-header {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.updates-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.updates-header p {
+  font-size: 1.2rem;
+  color: #6b7280;
+}
+
+.updates-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .updates-header h1 {
+    font-size: 2rem;
+  }
+}

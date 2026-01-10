@@ -6,9 +6,9 @@
   "hero": {
     "headline": "Go With Gayler",
     "paragraphs": [
-      "Richard Gayler is running for State Senate to bring fresh, principled leadership to District 12. With over 15 years of experience in community organizing and public service, Richard understands the challenges facing working families.",
-      "From affordable healthcare to quality education, Richard is committed to fighting for policies that create opportunity for everyone—not just the wealthy and well-connected.",
-      "Richard believes government works best when it listens first. He’s focused on practical, bipartisan solutions, fiscal responsibility, and restoring trust by putting people ahead of politics. Above all, Richard is committed to serving District 12 with integrity, transparency, and a deep respect for the communities he represents."
+      "Richard Gayler has lived on the Palouse since 1998, when he was transferred from the U.S. Probation Office in Boise, Idaho, to manage the one person satellite office in Moscow, Idaho. For nearly 25 years as a federal probation officer, Richard oversaw a diverse population across north central Idaho. His work covered Benewah, Latah, Lewis, Nez Perce, Clearwater, and Idaho counties, bringing him into close contact with the daily issues and concerns faced by residents of these unique communities.",
+      "Whether related to employment, education, transportation, or substance abuse and mental health services, navigating these challenges is a regular part of life in the District 6 region. Richard’s passion and purpose have always been centered on helping people improve their lives. During approximately 30 years working within the criminal justice system, he has consistently found that there is good in people.",
+      "Recreation minded by nature, Richard has also dedicated decades to working with youth as a coach and mentor. He began coaching in the 1980s and has continued ever since, coaching at Lewiston, Moscow, and Pullman High Schools. Richard has been married for 34 years and has two adult children."
     ],
     "heroImages": [
       "/running.jpg",
@@ -26,14 +26,13 @@
   "subscribeUrl": "https://newsletter.example.com/subscribe",
 
   "contact": {
-    "email": "info@RichardGayler.com",
-    "phone": "(555) 123-4567",
-    "address": "P.O. Box 1234, Springfield, ST 12345"
+    "email": "gowithgayler@gmail.com",
+    "phone": "(208) 883-3401"
   },
 
   "socials": {
     "facebook": "https://facebook.com/RichardGaylerforsenate",
-    "instagram": "https://instagram.com/RichardGaylerforsenate",
+    "instagram": "https://www.instagram.com/gowithgaylerforidaho/",
     "twitter": "https://twitter.com/sGaylerforsen",
     "youtube": ""
   },

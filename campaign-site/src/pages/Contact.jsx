@@ -37,7 +37,7 @@ export default function Contact({ siteData }) {
           <div className="info-block">
             <h3>Follow Us</h3>
             <div className="social-links">
-              {siteData.socials.facebook && (
+              {/* {siteData.socials.facebook && (
                 <a
                   href={siteData.socials.facebook}
                   target="_blank"
@@ -45,7 +45,7 @@ export default function Contact({ siteData }) {
                 >
                   Facebook
                 </a>
-              )}
+              )} */}
               {siteData.socials.instagram && (
                 <a
                   href={siteData.socials.instagram}
@@ -55,7 +55,7 @@ export default function Contact({ siteData }) {
                   Instagram
                 </a>
               )}
-              {siteData.socials.twitter && (
+              {/* {siteData.socials.twitter && (
                 <a
                   href={siteData.socials.twitter}
                   target="_blank"
@@ -63,7 +63,7 @@ export default function Contact({ siteData }) {
                 >
                   Twitter
                 </a>
-              )}
+              )} */}
             </div>
           </div>
         </div>

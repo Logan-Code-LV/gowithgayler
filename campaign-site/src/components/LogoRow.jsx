@@ -1,4 +1,5 @@
 import './LogoRow.css';
+import { getImageUrl } from '../utils/getImageUrl';
 
 export default function LogoRow({ logos }) {
   return (
@@ -8,7 +9,7 @@ export default function LogoRow({ logos }) {
         <div className="logo-grid">
           {logos.map((logo, index) => (
             <div key={index} className="logo-item">
-              <img src={logo.image} alt={logo.alt} />
+              <img src={getImageUrl(logo.image)} alt={logo.alt} />
             </div>
           ))}
         </div>

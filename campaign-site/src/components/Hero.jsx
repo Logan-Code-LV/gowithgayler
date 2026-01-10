@@ -1,4 +1,5 @@
 import './Hero.css';
+import { getImageUrl } from '../utils/getImageUrl';
 
 export default function Hero({ headline, paragraphs, heroImages }) {
   return (
@@ -12,7 +13,7 @@ export default function Hero({ headline, paragraphs, heroImages }) {
         </div>
         <div className="hero-images">
             <img
-              src={heroImages[0]}
+              src={getImageUrl(heroImages[0])}
               alt={`Hero image ${0 + 1}`}
               className="hero-image"
               />

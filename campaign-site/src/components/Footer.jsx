@@ -5,7 +5,7 @@ export default function Footer({ contact, socials, legalFooter }) {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h3>Contact Us</h3>
+          <h3>Contact</h3>
           <p>
             <a href={`mailto:${contact.email}`}>{contact.email}</a>
           </p>
@@ -16,9 +16,9 @@ export default function Footer({ contact, socials, legalFooter }) {
         </div>
 
         <div className="footer-section">
-          <h3>Follow Us</h3>
+          <h3>Follow</h3>
           <div className="social-links">
-            {socials.facebook && (
+            {/* {socials.facebook && (
               <a
                 href={socials.facebook}
                 target="_blank"
@@ -27,7 +27,7 @@ export default function Footer({ contact, socials, legalFooter }) {
               >
                 Facebook
               </a>
-            )}
+            )} */}
             {socials.instagram && (
               <a
                 href={socials.instagram}
@@ -38,7 +38,7 @@ export default function Footer({ contact, socials, legalFooter }) {
                 Instagram
               </a>
             )}
-            {socials.twitter && (
+            {/* {socials.twitter && (
               <a
                 href={socials.twitter}
                 target="_blank"
@@ -47,7 +47,7 @@ export default function Footer({ contact, socials, legalFooter }) {
               >
                 Twitter
               </a>
-            )}
+            )} */}
             {socials.youtube && (
               <a
                 href={socials.youtube}

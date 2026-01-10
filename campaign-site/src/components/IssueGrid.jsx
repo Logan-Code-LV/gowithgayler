@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './IssueGrid.css';
+import { getImageUrl } from '../utils/getImageUrl';
 
 export default function IssueGrid({ issues, showAll = false }) {
   const displayIssues = showAll ? issues : issues.slice(0, 4);
@@ -11,7 +12,7 @@ export default function IssueGrid({ issues, showAll = false }) {
         <div className="issues">
           {displayIssues.map((issue) => (
             <article key={issue.slug} className="issue-card">
-              <img src={issue.image} alt={issue.title} className="issue-image" />
+              <img src={getImageUrl(issue.image)} alt={issue.title} className="issue-image" />
               <div className="issue-content">
                 <h3>{issue.title}</h3>
                 <p>{issue.blurb}</p>

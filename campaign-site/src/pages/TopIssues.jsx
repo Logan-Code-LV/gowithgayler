@@ -1,4 +1,5 @@
 import './TopIssues.css';
+import { getImageUrl } from '../utils/getImageUrl';
 
 export default function TopIssues({ siteData }) {
   return (
@@ -14,7 +15,7 @@ export default function TopIssues({ siteData }) {
       <div className="issues-container">
         {siteData.issues.map((issue) => (
           <article key={issue.slug} id={issue.slug} className="issue-detail">
-            <img src={issue.image} alt={issue.title} className="issue-detail-image" />
+            <img src={getImageUrl(issue.image)} alt={issue.title} className="issue-detail-image" />
             <div className="issue-detail-content">
               <h2>{issue.title}</h2>
               {issue.body.split('\n\n').map((paragraph, index) => (

@@ -16,6 +16,32 @@ export default function Home({ siteData }) {
 
       {/* <LogoRow logos={siteData.endorsements.logos} /> */}
 
+      <section className="election-dates-section">
+        <div className="election-dates-container">
+          <h2>Go With Gayler for Idaho</h2>
+          <div className="election-dates">
+            <a
+              href="https://voteidaho.gov"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="election-date"
+            >
+              <h3>Primary Election</h3>
+              <p className="date">Tuesday, May 19, 2026</p>
+            </a>
+            <a
+              href="https://voteidaho.gov"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="election-date"
+            >
+              <h3>General Election</h3>
+              <p className="date">Tuesday, November 3, 2026</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
       <IssueGrid issues={siteData.issues} showAll={false} />
 
       <CTASection

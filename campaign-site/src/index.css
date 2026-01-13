@@ -3,12 +3,20 @@
 }
 
 :root {
-  /* Default theme colors - will be overridden by site.json */
-  --primary-color: #2563eb;
-  --secondary-color: #dc2626;
+  /* Standardized Design System Colors */
+  --primary-color: #2563eb; /* Primary blue for nav, buttons, headers */
+  --secondary-color: #dc2626; /* Red - limited to Donate button and key dates */
   --background-color: #ffffff;
-  --text-color: #1f2937;
-  --accent-color: #10b981;
+  --text-color: #111827; /* Darker for better contrast */
+  --text-secondary: #4b5563; /* Darker body text for accessibility */
+  --neutral-bg: #f8fafc; /* Soft neutral background */
+  --card-bg: #ffffff;
+  --border-color: #e5e7eb;
+  --section-divider: #e5e7eb;
+
+  /* Button styling */
+  --button-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --button-shadow-hover: 0 6px 16px rgba(0, 0, 0, 0.15);
 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1.6;

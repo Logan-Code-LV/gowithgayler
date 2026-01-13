@@ -23,7 +23,7 @@ export default function CTASection({ donateUrl, volunteerUrl, endorseUrl }) {
             rel="noopener noreferrer"
           >
             <h3>Volunteer</h3>
-            <p>Help us reach voters by volunteering your time</p>
+            <p>Please get in touch with Richard for all campaign assistance and volunteer inquiries.</p>
           </a>
           <a
             href={endorseUrl}

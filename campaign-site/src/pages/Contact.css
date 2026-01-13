@@ -1,5 +1,7 @@
 .contact-page {
   padding: 3rem 2rem;
+  background: var(--background-color);
+  min-height: 100vh;
 }
 
 .contact-header {
@@ -16,7 +18,7 @@
 
 .contact-header p {
   font-size: 1.2rem;
-  color: #6b7280;
+  color: var(--text-secondary);
 }
 
 .contact-content {
@@ -45,7 +47,7 @@
 }
 
 .info-block p {
-  color: #6b7280;
+  color: var(--text-secondary);
   line-height: 1.6;
 }
 

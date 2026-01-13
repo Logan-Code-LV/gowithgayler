@@ -58,3 +58,89 @@
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
+/* Election Dates Section */
+.election-dates-section {
+  padding: 5rem 2rem;
+  background: var(--neutral-bg);
+  text-align: center;
+  border-bottom: 1px solid var(--section-divider);
+}
+
+.election-dates-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.election-dates-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.election-dates {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.election-date {
+  display: block;
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  border: 2px solid var(--border-color);
+  box-shadow: var(--button-shadow);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.election-date:hover,
+.election-date:focus {
+  transform: translateY(-4px);
+  box-shadow: var(--button-shadow-hover);
+  border-color: var(--secondary-color);
+}
+
+.election-date h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.election-date .date {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .election-dates-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .election-dates-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .election-date {
+    padding: 2.5rem 2rem;
+  }
+
+  .election-date h3 {
+    font-size: 1.35rem;
+    font-weight: 700;
+  }
+
+  .election-date .date {
+    font-size: 1.15rem;
+    font-weight: 800;
+  }
+}

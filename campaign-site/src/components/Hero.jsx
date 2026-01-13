@@ -12,7 +12,7 @@ export default function Hero({ headline, paragraphs, heroImages }) {
         </div>
         <div className="hero-images">
             <img
-              src={heroImages[0]}
+              src={heroImages[4]}
               alt={`Hero image ${0 + 1}`}
               className="hero-image"
               />

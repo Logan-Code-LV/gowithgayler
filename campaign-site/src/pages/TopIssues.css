@@ -1,6 +1,6 @@
 .issues-page {
   padding: 4rem 2rem;
-  background: linear-gradient(to bottom, #f9fafb 0%, #ffffff 100%);
+  background: var(--background-color);
   min-height: 100vh;
 }
 
@@ -16,15 +16,11 @@
   margin-bottom: 1.5rem;
   color: var(--text-color);
   letter-spacing: -0.02em;
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .issues-header p {
   font-size: 1.25rem;
-  color: #6b7280;
+  color: var(--text-secondary);
   line-height: 1.7;
   max-width: 700px;
   margin: 0 auto;
@@ -39,17 +35,17 @@
 }
 
 .issue-detail {
-  background: white;
+  background: var(--card-bg);
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--button-shadow);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--border-color);
 }
 
 .issue-detail:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  box-shadow: var(--button-shadow-hover);
   border-color: var(--primary-color);
 }
 
@@ -76,8 +72,8 @@
   top: 0;
   left: 3.5rem;
   right: 3.5rem;
-  height: 4px;
-  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+  height: 3px;
+  background: var(--primary-color);
   border-radius: 0 0 2px 2px;
 }
 
@@ -94,7 +90,7 @@
 .issue-detail-content p {
   font-size: 1.125rem;
   line-height: 1.9;
-  color: #374151;
+  color: var(--text-secondary);
   margin-bottom: 1.5rem;
 }
 

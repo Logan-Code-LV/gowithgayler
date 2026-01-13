@@ -2,9 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
-export default defineConfig(({ command }) => ({
+export default defineConfig({
   plugins: [react()],
-  base: command === 'build' ? '/gowithgayler/' : '/',
+  base: '/', // Changed for custom domain deployment
   server: {
     host: true,
     proxy: {
@@ -15,4 +15,4 @@ export default defineConfig(({ command }) => ({
     },
     allowedHosts: true,
   },
-}))
+})

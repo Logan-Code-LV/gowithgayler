@@ -1,7 +1,8 @@
 .hero {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+  background: var(--primary-color);
   color: white;
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
+  border-bottom: 1px solid var(--section-divider);
 }
 
 .hero-container {
@@ -15,6 +16,7 @@
 
 .hero-content {
   padding-right: 2rem;
+  max-width: 580px;
 }
 
 .hero-headline {
@@ -29,6 +31,7 @@
   line-height: 1.8;
   margin-bottom: 1rem;
   opacity: 0.95;
+  max-width: 540px;
 }
 
 .hero-images {
@@ -59,13 +62,16 @@
 
   .hero-headline {
     font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
   .hero-paragraph {
-    font-size: 1rem;
+    font-size: 1.05rem;
+    line-height: 1.9;
+    margin-bottom: 1.25rem;
   }
 
   .hero-image {
-    height: 300px;
+    height: 250px;
   }
 }

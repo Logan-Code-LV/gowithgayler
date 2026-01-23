@@ -1,12 +1,12 @@
 {
   "candidateName": "Richard Gayler",
   "officeTitle": "State Senate",
-  "districtOrArea": "District 12",
+  "districtOrArea": "District 6",
 
   "hero": {
     "headline": "Go With Gayler",
     "paragraphs": [
-      "Richard Gayler is running for Idaho State Senate to bring fresh, principled leadership to District 12. With over 30 years of experience in public service and community organization, Richard understands the challenges facing working families.",
+      "Richard Gayler is running for Idaho State Senate to bring fresh, principled leadership to District 6. With over 30 years of experience in public service and community organization, Richard understands the challenges facing working families.",
       "From affordable healthcare to quality education, Richard is committed to fighting for policies that create opportunity for everyone, not just the wealthy and well-connected.",
       "Richard believes government works best when it listens first. He’s focused on practical, bipartisan solutions, fiscal responsibility, and restoring trust by putting people ahead of politics. Above all, Richard is committed to serving District 6 with integrity, transparency, and a deep respect for the communities he represents."
     ],
@@ -15,11 +15,11 @@
       "/allie.jpg",
       "/riverscreenshot.png",
       "/BorahSummit.jpg",
-      "/running.jpg"
+      "/hero.jpg"
     ]
   },
 
-  "donateUrl": "https://secure.actblue.com/donate/example",
+  "donateUrl": "https://secure.actblue.com/donate/gowithgaylerforidaho",
   "volunteerUrl": "https://forms.gle/volunteer-example",
   "endorseUrl": "https://forms.gle/endorse-example",
   "subscribeUrl": "https://newsletter.example.com/subscribe",
@@ -125,8 +125,8 @@
       "title": "Richard Gayler Announces Campaign for State Senate",
       "date": "2024-01-15",
       "category": "Campaign News",
-      "excerpt": "Local organizer and community leader Richard Gayler officially launched her campaign for State Senate District 12, promising to fight for working families and bring fresh leadership to the capitol.",
-      "body": "SPRINGFIELD – Richard Gayler today officially announced her candidacy for State Senate District 12, joining the race to bring principled, people-first leadership to the state capitol.\n\n\"For too long, our district has been represented by politicians who put special interests ahead of working families,\" Gayler said at a campaign kickoff event attended by over 200 supporters. \"I'm running to change that.\"\n\nGayler, who has spent 15 years organizing in communities across the district, outlined an ambitious agenda focused on affordable healthcare, quality public education, and economic opportunity.\n\n\"This campaign is about building a future where everyone has a fair shot—not just the wealthy and well-connected,\" Gayler said. \"It's about showing up, listening, and fighting for what matters most to the people of District 12.\"\n\nThe campaign has already earned endorsements from local teachers, small business owners, and community leaders.",
+      "excerpt": "Local organizer and community leader Richard Gayler officially launched her campaign for State Senate District 6, promising to fight for working families and bring fresh leadership to the capitol.",
+      "body": "SPRINGFIELD – Richard Gayler today officially announced her candidacy for State Senate District 6, joining the race to bring principled, people-first leadership to the state capitol.\n\n\"For too long, our district has been represented by politicians who put special interests ahead of working families,\" Gayler said at a campaign kickoff event attended by over 200 supporters. \"I'm running to change that.\"\n\nGayler, who has spent 15 years organizing in communities across the district, outlined an ambitious agenda focused on affordable healthcare, quality public education, and economic opportunity.\n\n\"This campaign is about building a future where everyone has a fair shot—not just the wealthy and well-connected,\" Gayler said. \"It's about showing up, listening, and fighting for what matters most to the people of District 6.\"\n\nThe campaign has already earned endorsements from local teachers, small business owners, and community leaders.",
       "coverImage": "/accolades.jpg"
     },
     {
@@ -134,8 +134,8 @@
       "title": "Gayler Unveils Comprehensive Healthcare Plan",
       "date": "2024-02-03",
       "category": "Policy",
-      "excerpt": "Richard Gayler released a detailed plan to expand healthcare access and lower costs for families in District 12, including prescription drug price caps and expanded coverage options.",
-      "body": "Richard Gayler today released her comprehensive healthcare plan, outlining specific steps to expand access and lower costs for families across District 12.\n\nThe plan includes:\n- Supporting a state public option for health insurance\n- Capping out-of-pocket costs for families\n- Allowing bulk purchasing of prescription drugs to lower prices\n- Protecting coverage for pre-existing conditions\n- Expanding rural healthcare access\n\n\"No family should have to choose between paying for medicine and putting food on the table,\" Gayler said. \"Healthcare is a human right, and it's time our state treated it that way.\"\n\nThe plan has earned praise from healthcare advocates, patients' rights groups, and medical professionals across the district.\n\n\"Richard's plan is exactly what we need—practical solutions that will make a real difference for working families,\" said Dr. Rachel Thompson, a family physician in Springfield.",
+      "excerpt": "Richard Gayler released a detailed plan to expand healthcare access and lower costs for families in District 6, including prescription drug price caps and expanded coverage options.",
+      "body": "Richard Gayler today released her comprehensive healthcare plan, outlining specific steps to expand access and lower costs for families across District 6.\n\nThe plan includes:\n- Supporting a state public option for health insurance\n- Capping out-of-pocket costs for families\n- Allowing bulk purchasing of prescription drugs to lower prices\n- Protecting coverage for pre-existing conditions\n- Expanding rural healthcare access\n\n\"No family should have to choose between paying for medicine and putting food on the table,\" Gayler said. \"Healthcare is a human right, and it's time our state treated it that way.\"\n\nThe plan has earned praise from healthcare advocates, patients' rights groups, and medical professionals across the district.\n\n\"Richard's plan is exactly what we need—practical solutions that will make a real difference for working families,\" said Dr. Rachel Thompson, a family physician in Springfield.",
       "coverImage": "/images/placeholder-healthcare-plan.jpg"
     },
     {
@@ -144,7 +144,7 @@
       "date": "2024-02-20",
       "category": "Endorsements",
       "excerpt": "Teachers Union Local 42 announced its endorsement of Richard Gayler, citing her commitment to public education and support for educators.",
-      "body": "Teachers Union Local 42 today announced its endorsement of Richard Gayler for State Senate, praising her commitment to public education and track record of supporting teachers and students.\n\n\"Richard Gayler has always stood with educators and students,\" said Maria Rodriguez, union president. \"She understands that investing in public education is investing in our future, and we're proud to endorse her campaign.\"\n\nThe endorsement comes as Gayler has made education funding a centerpiece of her campaign, calling for increased teacher pay, smaller class sizes, and modern school facilities.\n\n\"Teachers are the backbone of our community,\" Gayler said. \"They deserve our support, fair pay, and the resources they need to help every student succeed. As your State Senator, that's exactly what they'll get.\"\n\nThe union represents over 2,000 educators across District 12.",
+      "body": "Teachers Union Local 42 today announced its endorsement of Richard Gayler for State Senate, praising her commitment to public education and track record of supporting teachers and students.\n\n\"Richard Gayler has always stood with educators and students,\" said Maria Rodriguez, union president. \"She understands that investing in public education is investing in our future, and we're proud to endorse her campaign.\"\n\nThe endorsement comes as Gayler has made education funding a centerpiece of her campaign, calling for increased teacher pay, smaller class sizes, and modern school facilities.\n\n\"Teachers are the backbone of our community,\" Gayler said. \"They deserve our support, fair pay, and the resources they need to help every student succeed. As your State Senator, that's exactly what they'll get.\"\n\nThe union represents over 2,000 educators across District 6.",
       "coverImage": "/images/placeholder-union.jpg"
     }
   ],

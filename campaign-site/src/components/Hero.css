@@ -1,7 +1,7 @@
 .hero {
-  background: var(--primary-color);
+  background: #4f7cba;
   color: white;
-  padding: 2rem 2rem;
+  padding: 3rem 2rem;
   border-bottom: 1px solid var(--section-divider);
 }
 
@@ -72,6 +72,7 @@
   }
 
   .hero-image {
-    height: 250px;
+    height: auto;
+    object-fit: contain;
   }
 }

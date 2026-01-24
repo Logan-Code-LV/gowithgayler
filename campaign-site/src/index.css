@@ -4,7 +4,7 @@
 
 :root {
   /* Standardized Design System Colors */
-  --primary-color: #2563eb; /* Primary blue for nav, buttons, headers */
+  --primary-color: #4f7cba; /* Softer, more muted blue for nav, buttons, headers */
   --secondary-color: #dc2626; /* Red - limited to Donate button and key dates */
   --background-color: #ffffff;
   --text-color: #111827; /* Darker for better contrast */

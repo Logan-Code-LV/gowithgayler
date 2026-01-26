@@ -1,6 +1,7 @@
 import './CTASection.css';
+import { Link } from 'react-router-dom';
 
-export default function CTASection({ donateUrl, volunteerUrl, endorseUrl }) {
+export default function CTASection({ donateUrl }) {
   return (
     <section className="cta-section" aria-labelledby="get-involved-heading">
       <div className="cta-container">
@@ -16,24 +17,13 @@ export default function CTASection({ donateUrl, volunteerUrl, endorseUrl }) {
             <h3>Donate</h3>
             <p>Support our campaign with a financial contribution</p>
           </a>
-          <a
-            href={volunteerUrl}
+          <Link
+            to="/contact"
             className="cta-card"
-            target="_blank"
-            rel="noopener noreferrer"
           >
-            <h3>Volunteer</h3>
-            <p>Please get in touch with Richard for all campaign assistance and volunteer inquiries.</p>
-          </a>
-          <a
-            href={endorseUrl}
-            className="cta-card"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h3>Endorse</h3>
-            <p>Add your name to our list of supporters</p>
-          </a>
+            <h3>Contact</h3>
+            <p>Get in touch with Richard for campaign assistance and volunteer inquiries</p>
+          </Link>
         </div>
       </div>
     </section>

@@ -46,8 +46,6 @@ export default function Home({ siteData }) {
 
       <CTASection
         donateUrl={siteData.donateUrl}
-        volunteerUrl={siteData.volunteerUrl}
-        endorseUrl={siteData.endorseUrl}
       />
 
       {/* <NewsletterCTA subscribeUrl={siteData.subscribeUrl} /> */}

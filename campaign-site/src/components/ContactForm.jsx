@@ -1,46 +1,18 @@
-import { useState } from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 import './ContactForm.css';
 
 export default function ContactForm() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
-  });
-  const [status, setStatus] = useState('');
+  const [state, handleSubmit] = useForm("xnjvdggd");
 
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus('sending');
-
-    try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
-
-      if (response.ok) {
-        setStatus('success');
-        setFormData({ name: '', email: '', phone: '', message: '' });
-      } else {
-        setStatus('error');
-      }
-    } catch (error) {
-      console.error('Form submission error:', error);
-      setStatus('error');
-    }
-  };
+  if (state.succeeded) {
+    return (
+      <div className="contact-form">
+        <p className="form-message success" role="alert">
+          Thank you! Your message has been sent successfully.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <form className="contact-form" onSubmit={handleSubmit}>
@@ -50,10 +22,13 @@ export default function ContactForm() {
           type="text"
           id="name"
           name="name"
-          value={formData.name}
-          onChange={handleChange}
           required
           aria-required="true"
+        />
+        <ValidationError
+          prefix="Name"
+          field="name"
+          errors={state.errors}
         />
       </div>
 
@@ -63,10 +38,13 @@ export default function ContactForm() {
           type="email"
           id="email"
           name="email"
-          value={formData.email}
-          onChange={handleChange}
           required
           aria-required="true"
+        />
+        <ValidationError
+          prefix="Email"
+          field="email"
+          errors={state.errors}
         />
       </div>
 
@@ -76,8 +54,11 @@ export default function ContactForm() {
           type="tel"
           id="phone"
           name="phone"
-          value={formData.phone}
-          onChange={handleChange}
+        />
+        <ValidationError
+          prefix="Phone"
+          field="phone"
+          errors={state.errors}
         />
       </div>
 
@@ -87,32 +68,23 @@ export default function ContactForm() {
           id="message"
           name="message"
           rows="6"
-          value={formData.message}
-          onChange={handleChange}
           required
           aria-required="true"
+        />
+        <ValidationError
+          prefix="Message"
+          field="message"
+          errors={state.errors}
         />
       </div>
 
       <button
         type="submit"
         className="submit-button"
-        disabled={status === 'sending'}
+        disabled={state.submitting}
       >
-        {status === 'sending' ? 'Sending...' : 'Send Message'}
+        {state.submitting ? 'Sending...' : 'Send Message'}
       </button>
-
-      {status === 'success' && (
-        <p className="form-message success" role="alert">
-          Thank you! Your message has been sent successfully.
-        </p>
-      )}
-
-      {status === 'error' && (
-        <p className="form-message error" role="alert">
-          Sorry, there was an error sending your message. Please try again or contact us directly.
-        </p>
-      )}
     </form>
   );
 }

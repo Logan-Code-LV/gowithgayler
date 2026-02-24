@@ -97,6 +97,11 @@
   position: relative;
 }
 
+/* Center the subject in the first gallery image (suit.jpg) */
+.gallery-image:first-child {
+  object-position: 30% center;
+}
+
 .gallery-image:hover {
   transform: translateY(-4px);
   box-shadow: var(--button-shadow-hover);

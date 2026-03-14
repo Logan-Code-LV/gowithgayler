@@ -1,4 +1,5 @@
 import ContactForm from '../components/ContactForm';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import './Contact.css';
 
 export default function Contact({ siteData }) {
@@ -42,8 +43,10 @@ export default function Contact({ siteData }) {
                   href={siteData.socials.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  className="contact-social-icon"
                 >
-                  Facebook
+                  <FaFacebook size={28} />
                 </a>
               )}
               {siteData.socials.instagram && (
@@ -51,17 +54,10 @@ export default function Contact({ siteData }) {
                   href={siteData.socials.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  className="contact-social-icon"
                 >
-                  Instagram
-                </a>
-              )}
-              {siteData.socials.twitter && (
-                <a
-                  href={siteData.socials.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Twitter
+                  <FaInstagram size={28} />
                 </a>
               )}
             </div>

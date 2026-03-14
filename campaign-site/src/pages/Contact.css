@@ -64,19 +64,23 @@
 
 .social-links {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  flex-direction: row;
+  gap: 1rem;
 }
 
-.social-links a {
+.contact-social-icon {
   color: var(--primary-color);
-  text-decoration: none;
-  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.social-links a:hover,
-.social-links a:focus {
-  text-decoration: underline;
+.contact-social-icon svg {
+  transition: transform 0.2s;
+}
+
+.contact-social-icon:hover svg {
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {

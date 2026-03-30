@@ -1,4 +1,5 @@
 import './Footer.css';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 
 export default function Footer({ contact, socials, legalFooter }) {
   return (
@@ -24,8 +25,9 @@ export default function Footer({ contact, socials, legalFooter }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
+                className="footer-social-icon"
               >
-                Facebook
+                <FaFacebook size={28} />
               </a>
             )}
             {socials.instagram && (
@@ -34,18 +36,9 @@ export default function Footer({ contact, socials, legalFooter }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
+                className="footer-social-icon"
               >
-                Instagram
-              </a>
-            )}
-            {socials.twitter && (
-              <a
-                href={socials.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Twitter"
-              >
-                Twitter
+                <FaInstagram size={28} />
               </a>
             )}
             {socials.youtube && (

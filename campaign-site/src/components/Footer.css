@@ -37,10 +37,26 @@
   text-decoration: underline;
 }
 
-.social-links {
+.footer .social-links {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.footer-social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.footer-social-icon svg {
+  fill: white;
+  transition: transform 0.2s;
+}
+
+.footer-social-icon:hover svg {
+  transform: scale(1.1);
 }
 
 .footer-legal {

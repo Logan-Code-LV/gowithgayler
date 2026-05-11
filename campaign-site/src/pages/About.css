@@ -243,6 +243,12 @@
   }
 }
 
+@media (max-width: 960px) {
+  .hero-name-break {
+    display: block;
+  }
+}
+
 @media (max-width: 600px) {
   .about-content {
     padding: 3rem 1.25rem;

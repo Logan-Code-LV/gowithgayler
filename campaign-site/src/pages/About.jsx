@@ -9,7 +9,7 @@ export default function About({ siteData }) {
         <div className="hero-inner">
           <div className="hero-text">
             <p className="hero-eyebrow">Idaho State Senate · District 6</p>
-            <h1>About {siteData.candidateName}</h1>
+            <h1>About <span className="hero-name-break">{siteData.candidateName}</span></h1>
             <p className="about-intro">
               Richard is a lifelong public servant and volunteer. He retired from federal
               service after a 25-year career with U.S. Probation and Parole. He has served

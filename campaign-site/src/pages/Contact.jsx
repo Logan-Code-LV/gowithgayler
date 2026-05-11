@@ -17,8 +17,6 @@ export default function Contact({ siteData }) {
               className="contact-ad-img"
             />
           </div>
-          <h2>Campaign Headquarters</h2>
-
           <div className="info-block">
             <h3>Email</h3>
             <p>

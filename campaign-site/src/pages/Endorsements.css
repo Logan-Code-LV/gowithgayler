@@ -93,15 +93,40 @@
 }
 
 @media (max-width: 768px) {
+  .endorsements-page {
+    padding: 2rem 1.25rem;
+  }
+
+  .endorsements-header {
+    margin-bottom: 2rem;
+  }
+
   .endorsements-header h1 {
     font-size: 2rem;
   }
 
-  .testimonials-grid {
-    grid-template-columns: 1fr;
+  .endorsements-header p {
+    font-size: 1rem;
+  }
+
+  .endorsement-logos h2,
+  .testimonials-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .endorsement-logos,
+  .testimonials-section,
+  .supporter-lists {
+    margin-bottom: 2.5rem;
   }
 
   .logo-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
   }
 }

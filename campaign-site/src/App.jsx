@@ -57,7 +57,7 @@ function App() {
           <Route path="/" element={<Home siteData={siteData} />} />
           <Route path="/about" element={<About siteData={siteData} />} />
           <Route path="/issues" element={<TopIssues siteData={siteData} />} />
-          {/* <Route path="/endorsements" element={<Endorsements siteData={siteData} />} /> */}
+          <Route path="/endorsements" element={<Endorsements siteData={siteData} />} />
           <Route path="/updates" element={<Updates siteData={siteData} />} />
           <Route path="/updates/:slug" element={<UpdateDetail siteData={siteData} />} />
           <Route path="/photos" element={<Photos siteData={siteData} />} />

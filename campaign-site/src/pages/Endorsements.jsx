@@ -7,8 +7,9 @@ export default function Endorsements({ siteData }) {
       <div className="endorsements-header">
         <h1>Endorsements</h1>
         <p>
-          {siteData.candidateName} is proud to be endorsed by community leaders, organizations,
-          and everyday people across {siteData.districtOrArea}
+          {siteData.candidateName} is proud to be endorsed by
+          <br />
+          community leaders, organizations, and everyday people across {siteData.districtOrArea}
         </p>
       </div>
 
@@ -23,20 +24,6 @@ export default function Endorsements({ siteData }) {
         </div>
       </section>
 
-      <section className="testimonials-section" aria-label="Testimonials">
-        <h2>What People Are Saying</h2>
-        <div className="testimonials-grid">
-          {siteData.endorsements.quotes.map((testimonial, index) => (
-            <Testimonial
-              key={index}
-              quote={testimonial.quote}
-              author={testimonial.author}
-              title={testimonial.title}
-              image={testimonial.image}
-            />
-          ))}
-        </div>
-      </section>
 
       <section className="supporter-lists" aria-label="Individual supporters">
         {siteData.endorsements.supporterLists.map((list, index) => (

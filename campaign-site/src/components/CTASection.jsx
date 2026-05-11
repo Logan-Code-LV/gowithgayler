@@ -22,7 +22,7 @@ export default function CTASection({ donateUrl }) {
             className="cta-card"
           >
             <h3>Contact</h3>
-            <p>Get in touch with Richard for campaign assistance and volunteer inquiries</p>
+            <p>Get in touch for campaign assistance and volunteer inquiries</p>
           </Link>
         </div>
       </div>

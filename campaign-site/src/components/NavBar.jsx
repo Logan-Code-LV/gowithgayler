@@ -13,7 +13,7 @@ export default function NavBar({ candidateName, donateUrl }) {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/issues">Top Issues</Link></li>
-          {/* <li><Link to="/endorsements">Endorsements</Link></li> */}
+          <li><Link to="/endorsements">Endorsements</Link></li>
           {/* <li><Link to="/updates">Updates</Link></li> */}
           {/* <li><Link to="/photos">Photos</Link></li> */}
           <li><Link to="/contact">Contact</Link></li>

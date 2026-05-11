@@ -40,59 +40,13 @@
   "endorsements": {
     "logos": [
       {
-        "name": "Progressive Action Fund",
-        "image": "/images/placeholder-logo-1.png",
-        "alt": "image 1"
-      },
-      {
-        "name": "Teachers Union Local 42",
-        "image": "/images/placeholder-logo-2.png",
-        "alt": "image 2"
-      },
-      {
-        "name": "Environmental Coalition",
-        "image": "/images/placeholder-logo-3.png",
-        "alt": "image 3"
-      },
-      {
-        "name": "Small Business Alliance",
-        "image": "/images/placeholder-logo-4.png",
-        "alt": "image 4"
+        "name": "Conservation Voters for Idaho",
+        "image": "/images/cvi-logo.png",
+        "alt": "Conservation Voters for Idaho"
       }
     ],
-    "quotes": [
-      {
-        "quote": "Richard Gayler has been a tireless advocate for working families. Her dedication to economic justice and educational equity makes her the clear choice for State Senate.",
-        "author": "Maria Rodriguez",
-        "title": "President, Teachers Union Local 42",
-        "image": "/images/placeholder-endorser-1.jpg"
-      },
-      {
-        "quote": "We need leaders who understand that environmental protection and economic growth go hand in hand. Richard gets it, and she'll fight for both.",
-        "author": "James Chen",
-        "title": "Director, Environmental Coalition",
-        "image": "/images/placeholder-endorser-2.jpg"
-      }
-    ],
-    "supporterLists": [
-      {
-        "category": "Community Leaders",
-        "supporters": [
-          "Dr. Rachel Thompson, Community Health Director",
-          "Pastor Michael Johnson, Faith Community Alliance",
-          "Linda Patel, Small Business Owner",
-          "Carlos Mendoza, Youth Center Director"
-        ]
-      },
-      {
-        "category": "Local Officials",
-        "supporters": [
-          "Mayor Jennifer Davis, Springfield",
-          "Councilmember Tom Barrett, District 4",
-          "School Board President Amanda Lee"
-        ]
-      }
-    ]
+    "quotes": [],
+    "supporterLists": []
   },
 
   "issues": [

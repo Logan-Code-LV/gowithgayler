@@ -36,24 +36,26 @@
 
 .logo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
 }
 
-.logo-item {
-  background: white;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+.endorsements-page .logo-item {
+  background: transparent;
+  padding: 1rem;
+  border-radius: 0;
+  box-shadow: none;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.logo-item img {
+.endorsements-page .logo-item img {
   max-width: 100%;
-  height: 100px;
+  height: 180px;
   object-fit: contain;
+  filter: none;
+  transition: none;
 }
 
 .testimonials-grid {

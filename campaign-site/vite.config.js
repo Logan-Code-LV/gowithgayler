@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/', // Changed for custom domain deployment
+  build: {
+    emptyOutDir: false,
+  },
   server: {
     host: true,
     proxy: {

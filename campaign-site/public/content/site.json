@@ -40,6 +40,11 @@
   "endorsements": {
     "logos": [
       {
+        "name": "American Federation of Teachers",
+        "image": "/images/aft-badge.png",
+        "alt": "American Federation of Teachers Endorsement"
+      },
+      {
         "name": "Conservation Voters for Idaho",
         "image": "/images/cvi-logo.png",
         "alt": "Conservation Voters for Idaho"

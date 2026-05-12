@@ -109,6 +109,52 @@ export default function About({ siteData }) {
             </div>
           </div>
 
+          {/* ── Candidate Statement ── */}
+          <div className="bio-section candidate-statement">
+            <p className="statement-label">Candidate Statement</p>
+            <h2>Your District 6 Senate Choice</h2>
+            <p>
+              In this election, you deserve a candidate who not only shares your values but has the
+              proven experience to deliver results for Idaho.
+            </p>
+            <p>
+              Like other candidates in this District 6 race, I believe in a strong public education
+              system, affordable and adequate healthcare, individual rights, local control,
+              higher education funding, and the protection of our public lands. These are
+              foundational values we should all hold in common.
+            </p>
+            <p><strong>But the similarities stop there.</strong></p>
+            <p>
+              What sets me apart is 30 years of real-world leadership inside government and
+              throughout our communities. I've spent my career helping people transform their lives
+              — not in theory, but in practice. I've managed teams, budgets, and complex operations
+              across six Idaho counties. I've worked directly with families, schools, law enforcement,
+              treatment providers, and community partners to solve problems, not create them.
+            </p>
+            <p className="statement-bring-label">I bring:</p>
+            <ul className="statement-list">
+              <li>Decades of organizational leadership</li>
+              <li>Experience managing public resources responsibly</li>
+              <li>A reputation for integrity, reliability, and professionalism</li>
+              <li>A collaborative approach that brings people together</li>
+            </ul>
+            <p>
+              I am not someone who shows up late or not at all, someone who is disorganized, or
+              difficult to work with. My record is clear, my service is documented, and my commitment
+              to Idahoans is unwavering.
+            </p>
+            <p>
+              I lead with integrity, competence, and a deep respect for the people of District 6.
+              My focus is — and always will be — on delivering practical solutions that improve lives
+              and strengthen our communities.
+            </p>
+            <p>
+              Idaho deserves leadership that reflects our best values. I'm ready to bring that
+              leadership to our statehouse.
+            </p>
+            <p className="statement-sign-off">— Go With Gayler</p>
+          </div>
+
           {/* ── Gallery ── */}
           <div className="about-gallery">
             <div className="gallery-row">

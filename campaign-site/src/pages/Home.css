@@ -121,6 +121,10 @@
 }
 
 @media (max-width: 640px) {
+  .mobile-break {
+    display: block;
+  }
+
   .election-dates-section {
     padding: 3rem 1.5rem;
   }

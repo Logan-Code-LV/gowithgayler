@@ -14,7 +14,6 @@ export default function Endorsements({ siteData }) {
       </div>
 
       <section className="endorsement-logos" aria-label="Organizational endorsements">
-        <h2>Organizational Support</h2>
         <div className="logo-grid">
           {siteData.endorsements.logos.map((logo, index) => (
             <div key={index} className="logo-item">

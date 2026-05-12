@@ -18,7 +18,7 @@ export default function Home({ siteData }) {
 
       <section className="election-dates-section">
         <div className="election-dates-container">
-          <h2>Go With Gayler for Idaho</h2>
+          <h2>Go With Gayler <span className="mobile-break">for Idaho</span></h2>
           <div className="election-dates">
             <a
               href="https://voteidaho.gov"

@@ -156,6 +156,79 @@
   object-position: center 10%;
 }
 
+/* ── Candidate Statement ────────────────────────────────── */
+.candidate-statement {
+  background: var(--neutral-bg);
+  border-radius: 10px;
+  padding: 3rem 3.5rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  border-left: 4px solid var(--primary-color);
+}
+
+.statement-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin-bottom: 0.75rem;
+}
+
+.candidate-statement h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.candidate-statement p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 1.1rem;
+}
+
+.candidate-statement p:last-child {
+  margin-bottom: 0;
+}
+
+.statement-bring-label {
+  font-weight: 700;
+  color: var(--text-color) !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.statement-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.25rem 0;
+}
+
+.statement-list li {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  padding-left: 1.5rem;
+  position: relative;
+  margin-bottom: 0.4rem;
+}
+
+.statement-list li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.statement-sign-off {
+  font-size: 1.2rem !important;
+  font-weight: 700;
+  color: var(--primary-color) !important;
+  margin-top: 1.5rem !important;
+}
+
 /* ── Gallery ────────────────────────────────────────────── */
 .about-gallery {
   padding-top: 1rem;
@@ -219,7 +292,8 @@
     object-position: center 35%;
   }
 
-  .bio-why {
+  .bio-why,
+  .candidate-statement {
     padding: 2.5rem 2rem;
     margin-left: 0;
     margin-right: 0;

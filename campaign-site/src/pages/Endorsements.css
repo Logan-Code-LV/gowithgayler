@@ -35,14 +35,15 @@
 }
 
 .logo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .endorsements-page .logo-item {
   background: transparent;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 0;
   box-shadow: none;
   display: flex;
@@ -52,7 +53,7 @@
 
 .endorsements-page .logo-item img {
   max-width: 100%;
-  height: 180px;
+  height: 270px;
   object-fit: contain;
   filter: none;
   transition: none;
@@ -119,11 +120,6 @@
   .testimonials-section,
   .supporter-lists {
     margin-bottom: 2.5rem;
-  }
-
-  .logo-grid {
-    grid-template-columns: 1fr;
-    justify-items: center;
   }
 
   .testimonials-grid {

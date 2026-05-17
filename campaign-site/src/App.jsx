@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
@@ -11,6 +11,19 @@ import UpdateDetail from './pages/UpdateDetail';
 import Photos from './pages/Photos';
 import Contact from './pages/Contact';
 import './App.css';
+
+function RouteTracker() {
+  const location = useLocation();
+  useEffect(() => {
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'page_view', {
+        page_path: location.pathname,
+        page_location: window.location.href,
+      });
+    }
+  }, [location]);
+  return null;
+}
 
 function App() {
   const [siteData, setSiteData] = useState(null);
@@ -47,6 +60,7 @@ function App() {
 
   return (
     <Router>
+      <RouteTracker />
       <div className="app">
         <NavBar
           candidateName={siteData.candidateName}
